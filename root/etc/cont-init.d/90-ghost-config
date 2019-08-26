@@ -16,8 +16,5 @@ cat <<"EOF"
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 EOF
 
-echo "unmounting rclone data"
-fusermount -u /data
-
 chown -R abc:abc \
     /root
