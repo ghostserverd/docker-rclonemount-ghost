@@ -18,7 +18,6 @@ EOF
 
 echo "unmounting rclone data"
 fusermount -u /data
-fusermount -u /tmpdata
 
 chown -R abc:abc \
     /root
